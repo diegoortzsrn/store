@@ -4,7 +4,9 @@ function ProductCard({ product, onAdd }) {
       <h3>{product.name}</h3>
       <p>${product.price}</p>
 
+      <br></br><br></br>
       <button className="btn" onClick={() => onAdd(product)}>
+        
         Agregar
       </button>
     </div>

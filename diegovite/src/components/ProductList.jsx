@@ -20,11 +20,12 @@ function ProductList({ onAdd }) {
 
  return (
   <div className="container">
-    <h2 className="title">Productos disponibles ☕</h2>
+    <h1 className="title"><center>Productos disponibles ☕</center></h1>
 
     {products.length === 0 && (
-      <p className="empty">No hay productos disponibles</p>
+      <p className="empty"><br></br><center>No hay productos disponibles</center></p>
     )}
+    <br></br>
 
     <div className="products">
       {products.map((product) => (

@@ -4,6 +4,7 @@ function App() {
   return (
     
     <div className="container">
+      
       <h1 className="title">☕ Café en grano</h1>
       <ProductList />
     </div>
