@@ -9,7 +9,7 @@ function ProductCard({ product, onAdd }) {
 
 
       <br></br><br></br>
-      <button className="btn" onClick={() => window.open(`https://wa.me/50379106927?text=Hola,%20quisiera%20pedir%20${encodeURI(product.name)}`, '_blank')}>
+      <button className="btn" onClick={() => window.open(`https://wa.me/50379106927?text=Hola,%20quisiera%20pedir%20${encodeURI(product.name)}`, '_blank') onAdd(product)}>
         
         Pedir a WhatsApp
       </button>
